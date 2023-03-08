@@ -9,12 +9,14 @@ class Statuses
     public const READY = 3;
     public const COMPLETED = 4;
     public const CONTINUUM = 5;
+    public const OBSOLETE = 6;
 
     public static $list = [
         self::LOCK => 'Lock',
         self::ACCUMULATE => 'Accumulate',
         self::READY => 'Ready',
         self::COMPLETED => 'Completed',
-        self::CONTINUUM => 'Continuum'
+        self::CONTINUUM => 'Continuum',
+        self::OBSOLETE => 'Obsolete',
     ];
 }
